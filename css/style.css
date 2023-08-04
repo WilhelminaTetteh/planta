@@ -1,0 +1,115 @@
+body {
+	font-family: 'Familjen Grotesk', sans-serif;
+}
+.logo {
+	width: 30px;
+}
+.pricing-header {
+	font-size: 70px;
+}
+.card {
+}
+.amount {
+	font-size: 60px;
+	font-weight: 700;
+}
+.business-card {
+	background-color: rgb(16, 23, 39);
+	color: white;
+}
+.btn-special,
+.tag {
+	background-color: rgb(173, 255, 20);
+	color: black;
+}
+.business-title {
+	color: rgb(173, 255, 20);
+}
+.tag {
+	top: 25px;
+	right: 25px;
+}
+.carousel-text {
+	left: 10%;
+	top: 20%;
+}
+.carousel-text p {
+	font-size: 90px;
+	color: white;
+}
+#best {
+	color: rgba(173, 255, 20, 0.522);
+}
+.hero-carousel,
+.carousel-inner {
+	height: 100vh;
+	width: 100vw;
+}
+
+.testimonial-img {
+	filter: grayscale(100%);
+}
+
+.accordion-button:not(.collapsed) {
+	color: white;
+	background-color: black;
+	box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+		var(--bs-accordion-border-color);
+}
+.accordion-button:focus {
+	z-index: 3;
+	border-color: black;
+	outline: 0;
+	box-shadow: none;
+}
+.blog-btn:hover {
+	background-color: rgb(173, 255, 20);
+	color: black;
+	border: none;
+	font-weight: bold;
+}
+@-webkit-keyframes bounce {
+	0% {
+		transform: scale(1, 1) translate(0px, 0px);
+	}
+
+	30% {
+		transform: scale(1, 0.8) translate(0px, 10px);
+	}
+
+	75% {
+		transform: scale(1, 1.1) translate(0px, -25px);
+	}
+
+	100% {
+		transform: scale(1, 1) translate(0px, 0px);
+	}
+}
+
+.bounce {
+	-webkit-animation: bounce 0.75s infinite;
+}
+
+@media screen and (max-width: 768px) {
+	.locations {
+		flex-direction: column;
+	}
+	.form-container {
+		padding-right: 0 !important;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.carousel-innerImage {
+		/* background-color: lightgreen; */
+		height: max-content;
+	}
+	.pricing-header {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.carousel-text {
+		left: 10%;
+		top: 50%;
+	}
+}
